@@ -1,0 +1,41 @@
+body {
+    background-color: gainsboro;
+    /* Use a system font, if none are available use an available sans-sarif */
+    font-family: system-ui, sans-serif;
+    margin: 0;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+    padding: 20px 30px;
+  
+  }
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    font-size: 64px;
+    text-align: center;
+  }
+  
+ #resetButton {
+    font-size: '20px';
+    color: darkblue;
+    background-color: yellow;
+    border-color: red;
+    border-radius: 0;
+    width: 200px;
+ }
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#message{
+  display:flex;
+  justify-content: center;
+}
